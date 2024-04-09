@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            display: flex;
+            background-color: rgba(255, 255, 255, 0.896);
+            justify-content: space-evenly;
+            padding-bottom: 5px;
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            height: 100vh;
+            background-color: black;
+
+        }
+
+        #d-2 {
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+            padding: 10px;
+        }
+
+        button {
+            background-color: rgb(0, 0, 0);
+            border: none;
+            color: white;
+            font-weight: bold;
+            width: 95px;
+            height: 2rem;
+        }
+
+        .h1 {
+            font-size: 25px;
+            padding-right: 20px;
+        }
+
+        .d1 {
+            background-color: rgb(53, 104, 147);
+            width: 76%;
+            height: 100vh;
+            display: flex;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        .main {
+            width: 100%;
+            height: 100%;
+        }
+
+        .headingtag {
+            margin-left: 0px;
+        }
+
+        .headingtag .h11 {
+            font-size: 36px;
+            font-family: 'Franklin Gothic Small', 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: 3px;
+        }
+
+        .linktag {
+            margin-left: 250px;
+            padding: 7px;
+        }
+
+        .linktag a {
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+            padding: 10px;
+            font-family: 'Franklin Gothic Small', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 800;
+        }
+
+        .buttontag {
+            margin-left: 20px;
+            display: flex;
+        }
+
+        .buttontag .btn {
+            display: flex;
+        }
+
+        .buttontag button {
+            width: 130px;
+            font-size: 16px;
+            font-weight: 200;
+            color: white;
+            background-color: rgb(95, 188, 157);
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+
+        }
+
+        .buttontag button .image1 {
+            margin-left: 13px;
+
+        }
+
+        .image2 {
+            width: 380px;
+            height: 450px;
+            object-fit: cover;
+        }
+
+       
+        .card2:hover {
+            box-shadow: 2px 2px 2px grey;
+        }
+
+        .c-1 {
+            display: flex;
+            margin-left: 0px;
+            margin-top: 0px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .heading2 {
+            padding: 40px;
+            font-size: 22px;
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+
+
+
+
+        .ppp {
+            margin-top: -75px;
+            padding: 40px;
+        }
+
+        .image3 {
+            width: 310px;
+            height: 310px;
+            object-fit: cover;
+        }
+
+        .card12 :hover {
+            box-shadow: 2px 2px 2px grey;
+        }
+
+        img:hover {
+            box-shadow: 2px 2px 2px grey;
+        }
+
+
+        .card12 {
+            border: 2px solid none;
+            width: 300px;
+            height: 100px;
+            margin-top: 0px;
+
+        }
+
+        .heading3 {
+            font-family: sans-serif;
+            margin-top: 40px;
+
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .c-2 {
+            display: flex;
+            margin-left: -0px;
+            margin-top: -5px;
+            justify-content: center;
+
+        }
+
+        .heading4 {
+            margin-top: 30px;
+            font-family: sans-serif;
+            font-size: 19px;
+            font-weight: 550;
+            margin-left: 20px;
+        }
+
+        .pppp {
+            line-height: 23px;
+            margin-left: 20px;
+        }
+
+       
+
+        .image4 {
+            width: 230px;
+            height: 150px;
+        }
+
+        
+
+        .heading5 {
+            font-family: sans-serif;
+            margin-top: 60px;
+            font-size: x-large;
+            font-weight: 700;
+
+            text-align: center;
+        }
+
+      
+        .image5 {
+            width: 210px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .c-3 {
+            display: flex;
+            margin-left: 0px;
+            margin-top: -2px;
+            justify-content: center;
+
+        }
+
+      
+
+        .heading6 {
+            font-family: sans-serif;
+            margin-left: 110px;
+        }
+
+        .heading7 {
+            font-family: sans-serif;
+            margin-left: 110px;
+        }
+
+
+        .image6 {
+            width: 433px;
+            height: 222px;
+            margin-top: -2px;
+        }
+
+
+        .heading8 {
+            font-family: sans-serif;
+            font-size: larger;
+            margin-top: 50px;
+            margin-left: 30px;
+            font-weight: 550;
+        }
+
+        .ppppp {
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+
+        .pic1 {
+            width: 40%;
+        }
+
+        .fp {
+            width: 40%;
+            text-align: center;
+            align-items: center;
+        }
+
+        .pic2 {
+            width: 20%;
+            object-fit: cover;
+        }
+        .card2 {
+            border: 2px solid none;
+            width: 330px;
+            height: 300px;
+        }
+
+        .card3 {
+            border: 2px solid none;
+            margin-top: 0px;
+        }
+
+        .card4 {
+            width: 380px;
+            height: 150px;
+            border: 2px solid none;
+        }
+        .card6 {
+            border: 2px solid none;
+            background-color: rgb(232, 229, 229);
+            width: 200px;
+            height: 152px;
+        }
+        .card7 {
+            border: 2px solid none;
+        }
+
+        .card8 {
+            border: 2px solid none;
+            background-color: wheat;
+            width: 386px;
+            height: 220px;
+        }
+
+        .card9 {
+            border: 2px solid none;
+            width: 384px;
+            height: 70px;
+            margin-top: 150px;
+            background-color: rgb(24, 173, 173);
+            margin-left: -385px;
+        }
+
+        .card10 {
+            width: 433px;
+            height: 200px;
+        }
+
+        .card11 {
+            border: 2px solid none;
+            width: 208px;
+            height: 220px;
+        }
+        .RAJ{
+            color: red;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <nav>
+
+        <div id="d-1">
+            <div class="h1"><span class="RAJ"> A</span>HAD RAJPUT</div>
+        </div>
+        <div id="d-2">
+            <a href="">HOME</a>
+            <a href="">HOME <span>+</span></a>
+            <a href="">PAGES</a>
+            <a href="">PORTFOLIO</a>
+            <a href="">BLOG</a>
+            <a href="">SHOP</a>
+            <a href="">CONTACT</a>
+            <button>CONTACT <span><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1em" viewBox="0 0 24 24">
+                        <path fill="Red"
+                            d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76" />
+                    </svg></span></button>
+
+        </div>
+
+    </nav>
+    <div class="conatiner">
+        <div class="c-1">
+            <div class="card1">
+                <img class="image2" src="pic1.png" alt="">
+            </div>
+            <div class="card2">
+                <h1 class="heading2">BRAND NEW AGENCY</h1>
+                <p class="ppp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quas, possimus itaque
+                    libero nisi consequatur! <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                    quas, possimus itaque libero nisi consequatur! </p>
+            </div>
+            <div class="conatiner1">
+                <div class="card3">
+                    <img src="4k-programming.jpg" alt="" class="image3">
+                </div>
+                <div class="card12">
+                    <h1 class="heading3">ABOUT</h1>
+                </div>
+            </div>
+        </div>
+        <div class="c-2">
+            <div class="card4">
+                <h2 class="heading4">BRAND NEW AGENCY</h2>
+                <p class="pppp">Lorem ipsum dolor sit amet consectetur adipisicing <br> Distinctio incidunt, porro
+                    delectus modi fugit fuga <br> explicabo natus doloribus. Lorem ipsum dolor sit.</p>
+            </div>
+            <div class="card5">
+                <img src="pic3.jpg" alt="" class="image4">
+            </div>
+            <div class="card6">
+                <h1 class="heading5">PORTFOLIO</h1>
+            </div>
+            <div class="card7">
+                <img src="https://img.freepik.com/free-photo/majestic-mountain-peak-tranquil-winter-landscape-generated-by-ai_188544-15662.jpg" alt="" class="image5">
+            </div>
+        </div>
+        <div class="c-3">
+            <div class="card8">
+                <h1 class="heading6">SERVICES</h1>
+            </div>
+            <div class="card9">
+                <h1 class="heading7">CONTACT</h1>
+            </div>
+            <div class="card10">
+                <img src="https://www.shutterstock.com/image-photo/empty-gaming-romm-rgb-professional-600nw-1960009438.jpg" alt="" class="image6">
+            </div>
+            <div class="card11">
+                <h1 class="heading8">CREATE YOUR PORTFOLIO</h1>
+                <p class="ppppp">Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur. dolor
+                    sit ametdolor sit ametdolor sit ametdolor sit amet dolor sit amet dolor..</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
